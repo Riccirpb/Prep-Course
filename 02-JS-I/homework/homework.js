@@ -7,7 +7,7 @@ const nuevaString = "Cambio";
 const nuevoNum = 7;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -151,9 +151,9 @@ function esPositivo(numero) {
   // Si el número es positivo, devolver ---> "Es positivo"
   // Si el número es negativo, devolver ---> "Es negativo"
   // Si el número es 0, devuelve false
-  if (num === 0)
+  if (numero === 0)
      {return false;}
-     else if (num > 0)
+     else if (numero > 0)
              {return "Es positivo";}
              else {return "Es negativo";}
 }
@@ -216,7 +216,7 @@ function esVocal(letra){
   // Escribe tu código aquí:
   if (letra.length > 1)
      {return "Dato incorrecto";}
-     else if (letra === a || letra === e || letra === i || letra === o || letra === u)
+     else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
              {return "Es vocal";}
              else {return "Dato incorrecto";}  
 }
